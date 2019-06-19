@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Button = () => {
     const [ buttonText, setButtonText ] = useState('Click me, please');
     const handleClick = () => {
-        setButtonText('Thanks, been clicked!');
+        setButtonText('Thanks, I was clicked!');
     };
 
     return (
